@@ -32,6 +32,9 @@ class firstFragment : Fragment() {
             findNavController().navigate(R.id.action_firstFragment_to_initFragment)
 
         }
+        b.tvString.setText(arguments?.getString("contador"))
+
+        b.tvtContador.setText(arguments?.getString("contador2"))
 //
     }
 }
